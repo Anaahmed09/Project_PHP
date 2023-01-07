@@ -86,7 +86,7 @@
         <h1 class="d-inline">All Products</h1>
         <a href="#" class="btn float-end">Add Product</a>
       </div>
-      <table class="table mt-5 table-striped text-center">
+      <table class="table mt-5 table-striped text-center"> 
         <thead>
           <tr>
             <th>Product</th>
@@ -95,38 +95,13 @@
             <th>Action</th>
           </tr>
         </thead>
+
         <tbody>
-          <tr>
-            <td>Tea</td>
-            <td>5 EGP</td>
-            <td><img src="../images/test.png" /></td>
-            <td>
-              <a class="btn">Unavailable</a> <a class="btn">Edit</a>
-              <a class="btn">Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Nescafe</td>
-            <td>7 EGP</td>
-            <td><img src="../images/test.png" /></td>
-            <td>
-              <a class="btn">Unavailable</a> <a class="btn">Edit</a>
-              <a class="btn">Delete</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Coffee</td>
-            <td>6 EGP</td>
-            <td><img src="../images/test.png" /></td>
-            <td>
-              <a class="btn">Unavailable</a> <a class="btn">Edit</a>
-              <a class="btn">Delete</a>
-            </td>
-          </tr>
+          <!--  -->
         </tbody>
       </table>
     </div>
-    <div class="container text-center mt-5">
+    <div class="container allProductsNum text-center mt-5">
       <ul
         class="d-flex justify-content-center align-items-center list-unstyled"
       >
@@ -140,22 +115,25 @@
             ><i class="fa-solid fa-chevron-left"></i
           ></a>
         </li>
-        <li><a class="fs-2 btn m-lg-3">1</a></li>
-        <li><a class="fs-2 btn m-lg-3">2</a></li>
-        <li><a class="fs-2 btn m-lg-3">3</a></li>
-        <li><a class="fs-2 btn m-lg-3">...</a></li>
+        <div
+          class="numbers"
+          style="width: 250px; overflow: hidden"
+        >
+      <div class="number2 d-flex"></div>
+      </div>
         <li>
           <a class="fs-3 btn m-lg-3 d-block"
             ><i class="fa-solid fa-chevron-right"></i
           ></a>
         </li>
-        <li>
+        <li class="angles-right">
           <a class="fs-3 btn m-lg-3 d-block"
             ><i class="fa-solid fa-angles-right"></i
           ></a>
         </li>
       </ul>
     </div>
+    <script src="../js/allProducts.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
       integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="

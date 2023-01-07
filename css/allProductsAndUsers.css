@@ -24,8 +24,14 @@ html {
   border: none;
   border-color: transparent;
 }
+.allUsers .table tr img,
 .allProducts .table tr img {
   width: 70px;
   height: 70px;
+}
+.allUsersNum .numbers .active,
+.allProductsNum .numbers .active {
+  background-color: gold;
+  
 }
 /* End All Products  */
